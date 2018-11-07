@@ -1,0 +1,11 @@
+{ Primer Programa }
+INICIO
+ARR
+CONT <- 0
+MIENTRAS CC != '.' HACER
+INV = {CONT = "cantidad caracteres antes del CC"}
+CONT <- CONT + 1
+AV
+FINMIENTRAS
+ESCRIBIR CONT
+FIN

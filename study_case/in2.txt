@@ -1,0 +1,13 @@
+FUNCION Fibonacci ( ENTERO N ) -> ENTERO
+
+SI ((N = 0) O (N = 1)) ENTONCES
+RETORNAR N
+SINO
+RETORNAR Fibonacci(N-1) + Fibonacci(N-2)
+FINSI
+FINFUNCION
+
+INICIO
+LEER N
+ESCRIBIR Fibonacci(N)
+FIN
